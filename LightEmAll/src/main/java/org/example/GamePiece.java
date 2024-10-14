@@ -14,6 +14,7 @@ class GamePiece {
   boolean powerStation;
   boolean powered;
   int cellSize = 50;
+  String color;
 
   // normal constructor
   GamePiece(int row, int col) {
@@ -25,6 +26,7 @@ class GamePiece {
     this.bottom = false;
     this.powerStation = false;
     this.powered = false;
+    this.color = "red";
   }
 
   // testing constructor #1
@@ -37,6 +39,7 @@ class GamePiece {
     this.bottom = bottom;
     this.powerStation = false;
     this.powered = false;
+    this.color = "red";
   }
 
   // testing constructor #2
@@ -49,6 +52,7 @@ class GamePiece {
     this.bottom = bottom;
     this.powerStation = false;
     this.powered = false;
+    this.color = "red";
   }
 
   // draws a game piece
