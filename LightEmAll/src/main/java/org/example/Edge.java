@@ -12,7 +12,7 @@ class Edge {
   Edge(GamePiece fromNode, GamePiece toNode) {
     this.fromNode = fromNode;
     this.toNode = toNode;
-    this.weight = new Random().nextInt(20);
+    this.weight = new Random().nextInt(19);
   }
 
   // constructor for edge for testing purpose
